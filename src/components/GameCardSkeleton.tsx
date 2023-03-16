@@ -3,7 +3,7 @@ import { Card, CardBody, Heading, HStack, Image, Skeleton, SkeletonText, Text } 
 
 const GameCardSkeleton = () => {
     return (
-        <Card width='100%' borderRadius={10} overflow="hidden">
+        <Card>
             <Skeleton height="200px" />
             <CardBody>
                 <SkeletonText />
